@@ -1,0 +1,99 @@
+/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+}
+* {
+	box-sizing: border-box;
+    max-width: 100%;
+    background-color: grey;
+}
+html {
+	font-size: 62.5%
+}
+header {
+    display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin: 20px;
+	
+}
+h1 {
+	font-size: large;
+}
+button {
+	color: white;
+	background-color: black;
+}
+button:hover {
+	background-color: black;
+}
+.hero-image {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:20em;
+	width:66%;
+	background-image:center;
+	background-size:cover;
+	border:solid 1px black;
+	background-image:url('https://picsum.photos/600/800/');
+	flex-direction:column;
+}
+.container {
+	display:flex;
+	justify-content:center;
+	padding:60px 0;
+}
+.button1 {
+	margin: 3%;
+}
+.portfolio .box {
+	height: 150px;
+	width: 225px;
+	margin:13px;
+	border: solid 2px black;
+
+	
+}
+.portfolio {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: space-evenly;
+
+}
+#box1 {
+	background-image:url('https://picsum.photos/225/151/');
+}
+#box2 {
+	background-image:url('https://picsum.photos/225/150/');
+}
+#box3 {
+	background-image:url('https://picsum.photos/225/153/');
+}
+#box4 {
+	background-image:url('https://picsum.photos/225/152/');
+}
+#box5 {
+	background-image:url('https://picsum.photos/226/150/');
+}
+#box6 {
+	background-image:url('https://picsum.photos/227/150/');
+}
