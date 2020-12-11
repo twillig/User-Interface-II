@@ -48,12 +48,12 @@ button:hover {
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	height:20em;
+	height:40em;
 	width:66%;
 	background-image:center;
 	background-size:cover;
 	border:solid 1px black;
-	background-image:url('https://picsum.photos/600/800/');
+	background-image:url('https://picsum.photos/700/400/');
 	flex-direction:column;
 }
 .container {
@@ -64,15 +64,15 @@ button:hover {
 .button1 {
 	margin: 3%;
 }
-.portfolio .box {
-	height: 150px;
-	width: 225px;
+.portfolio1 .box {
+	height: 177px;
+	width: 350px;
 	margin:13px;
 	border: solid 2px black;
 
 	
 }
-.portfolio {
+.portfolio1 {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
@@ -80,20 +80,73 @@ button:hover {
 
 }
 #box1 {
-	background-image:url('https://picsum.photos/225/151/');
+	background-image:url('https://picsum.photos/350/179/');
 }
 #box2 {
-	background-image:url('https://picsum.photos/225/150/');
+	background-image:url('https://picsum.photos/351/177/');
 }
 #box3 {
-	background-image:url('https://picsum.photos/225/153/');
+	background-image:url('https://picsum.photos/352/177/');
 }
+.textbelow1 {
+	display: flex;
+	flex-flow: row wrap;
+	margin:20px;
+	justify-content:center;
+	justify-content:space-evenly;
+}
+.portfolio2 .box {
+	height: 177px;
+	width: 350px;
+	margin:13px;
+	border: solid 2px black;
+}
+.portfolio2 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: space-evenly;
+}
+
+
 #box4 {
-	background-image:url('https://picsum.photos/225/152/');
+	background-image:url('https://picsum.photos/350/177/');
 }
 #box5 {
-	background-image:url('https://picsum.photos/226/150/');
+	background-image:url('https://picsum.photos/351/178/');
 }
 #box6 {
-	background-image:url('https://picsum.photos/227/150/');
+	background-image:url('https://picsum.photos/352/178/');
+}
+.textbelow2 {
+	display: flex;
+	flex-flow: row wrap;
+	margin:20px;
+	justify-content:center;
+	justify-content:space-evenly;
+}
+.bottom {
+	display:flex;
+	justify-content: center;
+	flex-flow: column wrap;
+	height:150px;
+	width:100%;
+	background-size:cover;
+	background:black;
+}
+.contact {
+	display:flex;
+	flex-flow:row wrap;
+	height: 30px;
+	width: 80px;
+	justify-content: center;
+	align-content:center;
+}
+#button2 {
+	display:flex;
+	justify-content:center;
+}
+p {
+	font-size:1.6em;
+	color:white;
 }
