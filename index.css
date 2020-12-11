@@ -64,3 +64,36 @@ button:hover {
 .button1 {
 	margin: 3%;
 }
+.portfolio .box {
+	height: 150px;
+	width: 225px;
+	margin:13px;
+	border: solid 2px black;
+
+	
+}
+.portfolio {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: space-evenly;
+
+}
+#box1 {
+	background-image:url('https://picsum.photos/225/151/');
+}
+#box2 {
+	background-image:url('https://picsum.photos/225/150/');
+}
+#box3 {
+	background-image:url('https://picsum.photos/225/153/');
+}
+#box4 {
+	background-image:url('https://picsum.photos/225/152/');
+}
+#box5 {
+	background-image:url('https://picsum.photos/226/150/');
+}
+#box6 {
+	background-image:url('https://picsum.photos/227/150/');
+}
